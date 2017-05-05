@@ -1,0 +1,15 @@
+base case: P(1) true
+
+then to show:∀x ∈ N+ , (P(0) ^ P(1) ^ P(2) ...^P(n)) => P(n+1) this step is called induction step.
+
+eg: fibonnacci series:
+ f(x) =  0, 1, 1, 2, 3, 5, 8, 13, 21,...
+ x ∈ N
+ 
+ important properties of fibonacci:
+    1. ratio of any consecutive numbers p/q = 5/3 = 1.61 .. it is called golden ratio
+    2. fn+1.fn-1 - fn^2 = (-1)^n
+   
+ 
+ 
+ 

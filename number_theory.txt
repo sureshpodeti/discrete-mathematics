@@ -1,0 +1,13 @@
+
+
+Natural numbers: 0,1,2,3,.. , represented by N
+Integer numbers: -3, -2, -1, 0, 1,2, 3, .. , represented by Z
+Rational numbers: when you divide p/q we will get some specific value eg. 1/5 = .20
+
+   -1, 0, 1, 1/2, -2/3 , represented by Q
+
+Irretional number: p/q has unending number
+  eg. sqrt(2) = 1.4.............
+ 
+real number:includes everything, denoted by R
+
