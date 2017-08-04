@@ -1,0 +1,6 @@
+Ideals:
+ Ideal I of Z ( integer) is defined as non-empty set of integers that is
+ closed under addition, and closed under multiplication by an artibary integer
+  
+ A non-empty set I ⊆ Z is an ideal if and only if ∀a,b ∈ Z and ∀z ∈ Z
+ 
