@@ -1,0 +1,10 @@
+  Gauss, developed the language of congruences. Integers may be replaces by their remainders 
+  when divided by a specific integer, using the language of congruences.
+  
+  Congruence applications:
+   1. computer file storage
+   2. arithmetic with large integers
+   3. generation of psudo-random numbers
+   4. develop ciphers, in cryptography.
+
+

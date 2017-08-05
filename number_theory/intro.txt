@@ -1,0 +1,21 @@
+Number theory, in general sense, is the study of numbers and their properites.
+
+Number theory has been used in many ways to  devise algorithms for efficient computer arithmetic
+and for computer operations with large integers
+
+History:
+ 1. 2500 years ago, pythagoras made distinction b/w primes and composites
+ 2. Euclid, included proof that there are infinitely many primes
+ 3. Pierre de fermat, thought that all intergers of the form 2^(2^n) + 1 are prime; shown false after century by
+    mathematicial euler. eg: 2^(2^5) + 1 has 641 as the factor
+ 
+ The problem of efficiently determining whether an integer is prime has long challenged mathematicians
+ 
+ Chinese mathematicians thought that primes are {x | (x |2^x -2)}. fermat showed this is true.
+ There are few composite numbers which satisfy this property as well called psudoprimes
+
+ Fundamental theorem of arithmetic: ∀x ∈ Z+ , x = p1^a.p2^b.p3^c ..pn^k
+              where p1, p2...pn are prime numbers , a,b.. ∈ Z
+ Fermat, euler, and many other mathematicians produced imaginative factorization technieques.
+ However, most efficient technique yet to be devised. 
+ 
