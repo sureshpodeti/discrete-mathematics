@@ -1,0 +1,24 @@
+ Iterative solution of tower of hanoi:
+ -------------------------------------
+ A, B,C are pegs, and we have n disks on peg A. we need to move them to peg C by following:
+ 1. at a time only one disk is allowed to move
+ 2. always smaller disk stays above the bigger one
+
+   Algorithm:
+   ---------
+   1. If the disk is odd numbered (counted from the bottom), it will always move left side.
+       if nothing is there it will end up on the last peg
+   2. If the disk is even numberd (counted from the bottom), it will always move right side
+  
+
+  example: 
+  If n =1, 1 is odd so moving left will end up in the peg C from peg A
+  
+  If n=2, upper disk is even numbered (2), so will move to right (i.e from A to B)
+  disk on peg A is 1, odd so will end up on C. ( left move)
+  now, the disk on B is 1, so will move back to A from B
+  finally, the disk on A now end up on the disk C. done !!
+  
+  This is not an efficient algorithm. In case of 2 disks, we have taken 4 steps by following iterative algorithm.
+  but better algorithm will solve it in 3 steps  
+ 
