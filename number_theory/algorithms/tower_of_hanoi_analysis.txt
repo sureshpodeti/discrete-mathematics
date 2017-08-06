@@ -1,0 +1,23 @@
+   Tower of hanoi:
+     To prove: Minimum no.of moves need to solve tower of hanoi of n disks is 2^n - 1
+       proof by induction:
+         base case:
+            Let f(n) denote the minimum no.of moves.
+            f(0) = 2^0 -1 = 0
+            f(1) = 2^1 - 1= 1
+            f(0) and f(1) holds
+
+         induction step:
+            Assume f(n-1).i.e f(n-1) = 2^(n-1) -1  ---eq.1
+            To prove: f(n-1) →  f(n)
+            strategy followed in moving n disks:
+             1. we move top (n-1) disks from source peg to auxilary peg. ( f(n-1) moves needed)
+             2. move the nth disk from source peg to destination peg (1 move needed) 
+             3. Then, move (n-1) disks from auxilary peg to destination peg. ( f(n-1) moves needed)
+            Total no.of moves, f(n) = 2f(n-1) + 1
+            from eq.1,   f(n) = 2*(2^(n-1) -1) +1 
+                              = 2^n -1 
+                         f(n) = 2^n -1
+
+            hence, f(n-1) →  f(n) →  f(1) →  f(2) →  f(3)  ..... →  f(n)
+            Hence, proved. 

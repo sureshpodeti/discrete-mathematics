@@ -1,0 +1,16 @@
+ nCr = n! / [(n-r)!r!]
+ nCr = nCr-1
+ nCr = n-1Ck + n-1Ck-1
+
+ pascals triangle:
+                     1
+                    1  1
+                   1  2  1
+                  1  3  3  1
+   nck is the (n+1)th row and (k+1)th number in the pascals triangle
+
+   bionomial theorm:
+               n 
+     (x+y)^n = ∑ nCj*x^(n-j)*y^j
+              j=0 
+
