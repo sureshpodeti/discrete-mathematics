@@ -1,0 +1,15 @@
+ Theorem: Every natural number can be written as a product of primes uniquely up to order
+    proof by induction: [Uniqueness proof]
+       Base case: n = 1, then the only factorization is the empty product of primes,
+       Induction step: for n > 1 , 
+                suppose , there exists primes p1, ...pd such that
+                              n = p1*p2*....pd   ---- eq.1
+                Assume, this number can also be expressed as product of other primes
+                              n = q1*q2* ..*qm   ---- eq.2
+                from , eq.1, p1 | n = q1*(q2* ..*qm)  ---- eq.3
+                from eq.3, p1 = q1 ∨ p1 | q2*(q3....qm) similary follow the same
+                at some i, P1 = qi, similary repeat for p2, p3... pd.
+               so, we will end up p1 = qi, p2 = qk , etc..
+               Hence,  Every natural number can be written as a product of primes uniquley up to order 
+                 
+               

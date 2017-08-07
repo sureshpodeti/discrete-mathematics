@@ -1,0 +1,35 @@
+
+  proposition: Every natural number is a product of primes
+    proof by induction: 
+       Let n be the natural number.
+       Base case: n =2, 2 is a prime number.
+        Induction step: Let assume x<n is a prime, and we need to prove it for n
+         Let us assume n is not prime (i.e composite)
+           n = ab , a,b<n
+           In the induction step we assumed x < n is prime. Hence, a and b are primes
+           so, we can say Every natural number is a product of primes ∎
+
+
+      naive algorithm for factorization:
+        eg: n = 1275
+         since, sum of digits( 1+2+7+5= 15) divided by 3. 
+             n = 3*425= 3*5*85 = 3*5^2*17 
+           so, prime factorization of n = 1275 = 3*5^2*17
+     
+      This is unique, we can check abviously
+  
+    
+      Is there an algorithm that can factor any integer n in polynomial time?
+         peter shor devised a polynomial time algorithm for factoring integers on quantum
+         computers. In 2001 IBM researchers built a quantum computer that used shor's 
+         algorithm to factor.
+
+      Many cryptosystems would be easily broken if factoring  certain large integers was easy.
+      since , no body has proven that factoring integers is difficult, one way to increase confidence
+      that factoring integer is difficult is to offer cash prizes for factoring certain integers.
+    
+      Till now, RSA key having 232 digits, and RSA-768 , has 768 digits  when written in binary format. solved. 
+      currently challenge is open till RSA key having 617 digits i.e RSA- 20148 worth $200,000  
+  
+      RSA numbers were factored using an algorithm called the number filed sieve, which is the best-known general
+      purpose factorization algorithm. The numberfiled sieve makes extensive use of the elliptic curve factorization method

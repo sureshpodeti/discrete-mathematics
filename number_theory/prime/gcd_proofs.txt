@@ -1,0 +1,18 @@
+Lemma: ∀ a,b,n ∈ Z: gcd(an, bn) = gcd(a,b) .|n|
+ 
+
+
+Lemma: a,b,n ∈ Z: (n|a ∧ n|b ) →  n|gcd(a,b)
+  
+  proof by direct proof:
+        a = nx  ∧ b = ny , x,y ∈ Z  -----eq.1
+        
+        Let d  = gcd(a,b)
+         d | a  ∧ d | b
+         a = di , b = dj,  i,j ∈ Z   -----eq.2
+         
+         To show: n | d
+            from eq.1 and eq.2
+             nx = di  ∧ ny = dj
+               
+          
