@@ -10,6 +10,6 @@
                 from eq.3, p1 = q1 ∨ p1 | q2*(q3....qm) similary follow the same
                 at some i, P1 = qi, similary repeat for p2, p3... pd.
                so, we will end up p1 = qi, p2 = qk , etc..
-               Hence,  Every natural number can be written as a product of primes uniquley up to order 
+               Hence,  Every natural number can be written as a product of primes uniquley up to order ∎ 
                  
                

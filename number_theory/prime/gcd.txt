@@ -1,0 +1,37 @@
+
+ GCD ( Greatest common divisor):
+   gcd(a,b) = max{d ∈ Z : d | a ∧ d|b}
+  
+   gcd(0,0) = 0
+   gcd(a, 0) = gcd(0,a) = a
+
+   Lemma: ∀a,b,c ∈  Z: gcd(a,b) = gcd(b,a) = gcd(±a, ±b) = gcd(a, b-a) = gcd(a, b+a)
+           
+                    gcd(a,b) = gcd(b,a)
+       proof by direct proof:
+            d = gcd(a,b)   ----eq.1
+            k = gcd(b,a)   ----eq.2
+          need to show d=k, i.e gcd(a,b) = gcd(b,a)
+          from eq.1, d|a ∧ d|b
+            d = max{x ∈ Z : x | a ∧ x|b}
+          from eq.2, k|a ∧ k|b
+            k = max{x ∈ Z : x | a ∧ x|b} 
+          so, d = k , hence gcd(a,b) = gcd(b,a) ∎
+
+
+                  gcd(a,b) = gcd(a, b-a)
+         proof by direct proof:
+             d | a ∧ d |b 
+             a = de1, b = de2  , e1, e2 ∈ Z
+             b-a = d(e2-e1) 
+             d | b-a ∧ d | a
+             gcd(a,b) ≤  gcd(a,b-a)   --- eq.3
+             Thus, the set overwhich we are taking the maximum for gcd(a,b) is a subset of the set gcd(a,b-a).
+             The same argument with a replaced by -a and b replaced by b-a,
+              gcd(a, b-a) = gcd(-a, b-a) ≤ gcd(-a,b) = gcd(a,b)  ----- eq.4,
+              from eq.3 and eq.4,  which proves that gcd(a,b) = gcd(a, b-a) ∎  
+            
+          
+              
+              
+               

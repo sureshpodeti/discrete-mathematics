@@ -1,0 +1,5 @@
+
+  The division theorem:
+    a,b∈ Z:b>0, ∃ p,q: a = bq + r with 0<= r <b
+
+ 

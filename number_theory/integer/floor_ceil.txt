@@ -1,0 +1,6 @@
+
+ x ∈ R,
+  
+ Floor function: Takes real number x as input and gives output the "greast integer"
+ ceiling function: Takes real number x as input and gives output the "Least integer"
+
