@@ -1,0 +1,15 @@
+  List of Important theorems:
+  --------------------------
+  1. (Fundamental theorem of arithmetic). Every natural number can be written as a product of primes uniquely upto order
+  2. ∀ a, b ∈ Z: gcd(a,b) = gcd(b,a) = gcd(±a, ±b) = gcd(a, b-1) = gcd(a, b+a)
+  3. ∀ a, b,n ∈ Z: gcd(a,b) = gcd(a, b-an)
+  4. (Division theorem). suppose that a and b are integers b ≠ 0. Then there exists unique integers q and r such that
+     0 ≤ r < |b| and a = bq + r
+  5.  ∀ a, b,n ∈ Z: gcd(an, bn) = gcd(a, b).|n|
+  6.  ∀ a, b,n ∈ Z: n|a ∧ n|b →  n|gcd(a,b)
+  7. Let p be a prime and a,b∈ N: p | ab →  p|a ∨ p|b
+  8. Every natural number is a product of primes
+  9. (Eculid theorem). There are infinitely many primes
+  10. There are infinitely many composites 
+  11. There are infinitely many primes of the form 4x -1
+  12. (Dirichlet theorem). ∀ a, b,n ∈ Z: gcd(a,b) = 1 →  There are infinitely many primes of the form ax+b
