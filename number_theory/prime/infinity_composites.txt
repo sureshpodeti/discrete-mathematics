@@ -1,0 +1,14 @@
+
+
+  Theorem: There are infinitely many composites
+    proof by direct proof:
+       we use the lemma, there are infinitely many prime numbers, and
+          lemma: every natural number can be expressed as product of primes
+          
+          Let C denote the finite set of composite numbers 
+          N = p1 , where p1 is prime number
+          N' = p1*p2 
+          C = {N,N'}
+          since, we have infinitely many primes we can multiply them to get infinitely many composites
+          so, C is a infinite set 
+          

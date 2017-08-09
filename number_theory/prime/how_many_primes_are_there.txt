@@ -1,0 +1,26 @@
+   
+    Goal here is to find the percentage  of primes in number system (natural numbes)
+
+
+
+    Q. what percentage of natural numbers are even ? 
+    A. half of them (50 percentage)
+
+    Q. what percentage of natural numbers are of the form 4x-1?
+    A. One fourth of them
+  
+    Q. what percentage of natural numbers are perfect squares?
+    A. zero percentage of all natural numbers, in the sense that the limit of the proportion of 
+       perfect squares to all natural numbers converges to 0. more precisely,
+           
+      lim   #{n∈ N: n ≤ x and n is a perfect square }
+    x→ ∞    ----------------------------------------   = 0
+                             x
+
+     since, the numerator is roughly sqrt(x) and lim(x→ ∞)  sqrt(x)/x = 0 . Hence,  zero percentage of all
+     natural numbers are prime.
+
+   Q. How many natural numbers ≤ x are  prime?
+       Let π(x) = #{p ∈ N: p≤ x is a prime}
+        for example: 
+               π(6) = #{2,3,5} = 3

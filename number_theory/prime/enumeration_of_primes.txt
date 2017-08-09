@@ -1,0 +1,25 @@
+
+
+   Algorithm to enumerate primes (prime sieve):
+      we need to find the prime numbers ≤ n
+    1. Let X = {2,3,4,...n} be the set of natural numbers in order till n
+    2. Let P be the set of primes 
+    3. ∀ x1 ∈ X: x^2 ≤ n, Add x1 to P and delete all the multiples of x1,
+       else, add X to P and terminate
+   
+   time complexicity: O(n^2) 
+   space complexicity: O(n)
+   
+   Proof of the algorithm: 
+     Statement: when the first element a of X satisfies a ≥ sqrt(n), then each element of X is prime.
+       To prove: a ∈ X: a  ≥ sqrt(n) →  each element of X is prime
+        proof by contradiction: 
+           Assume, sqrt(n) ≤ m ≤ n. m is divisible by no prime that is ≤ sqrt(n).
+           m can be expressed as product of primes which are greater than sqrt(n),
+           m = ∏ pi ^ei
+           p1 < p2 < p3 ... . ,but we know a ≥ sqrt(n).
+           sqrt(n) < p1< p2 < ....
+           product of any of these primes, m>n , but we assumed m ≤ n. contradiction.
+           Hence, our assumption that a ∈ X: a  ≥ sqrt(n) expressed as primes greater than sqrt(n) is wrong.
+           so, ∀ x ∈ X is prime ∎        
+  

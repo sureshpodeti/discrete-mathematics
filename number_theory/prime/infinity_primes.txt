@@ -1,3 +1,12 @@
 
-   Ther  are Infinitely many primes
+   Theorem: There are Infinitely many primes
+    proof by contradiction:
+      Assume, there are only limited primes (finite no.of primes).
+       P = p1*p2*p3*...pn + 1, where p1, p2 ....pn are prime numbers
+       Let us say a prime p devides P. if p happend to be in one of those p1,p2 ...,pn then p = pi,
+       then p | P, p | P-1 then it implies p | 1 , we arrived at a contradiction. p | 1 if and only if p =1 
+       but 1 is not prime (intially we assumed p as prime).
+
+      so, our assumption is wrong, and p is not in the set {p1, p2 ...,pn} , and we found one more prime which is not 
+      in that set. Hence, we can say, there are infinitely many primes 
  

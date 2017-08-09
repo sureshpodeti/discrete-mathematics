@@ -1,0 +1,9 @@
+   
+   Riemann hypothesis:
+   ------------------
+     In mathematics, the Riemann hypothesis is a conjecture that the riemann zeta function has its zeros only at the 
+     negative even integers and complex numbers with real part 1/2. It was proposed by bernhard Riemann (1859), after
+     whom it is named. 
+
+    ** The riemann hypothesis implies results about the distribution of prime numbers. It is also one of clay mathematics
+    institute millennium prize problems

@@ -1,0 +1,5 @@
+
+
+   Theorem: Let a and b be the integes with gcd(a,b) = 1. Then there are infinitely many primes of the form ax+b
+
+   proof: proofs of this theorem typically use tools from advanced number theory .

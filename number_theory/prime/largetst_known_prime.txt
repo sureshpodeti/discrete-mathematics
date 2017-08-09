@@ -1,0 +1,13 @@
+ 
+  Greate internet mersenne prime search (GIMPS): is a collaborative project of volunteers who use freely available software to search
+  for mresenne prime numbers.
+  
+   All mersenne primes are in the form Mp, where p is the (prime) exponent. The prime numbers itself is 2^p - 1,so the smallest prime in the table is 2^(1398269) - 1 . 
+
+   On Jan 7, 2016, GIMPS discovered M49 that has 22,338,618 digits using intel core i7-4790.
+
+   Why finding largest primes important:
+    1. To show mathematical techniques have advanced so much
+    2. Cryptography
+    3. to test the hardware - eg: softaware routines from the GIMPS project were used by intel to test
+      pentium II and pentium pro chips before they were shipped.

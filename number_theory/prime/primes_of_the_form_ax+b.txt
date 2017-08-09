@@ -1,0 +1,20 @@
+    Primes of the form ax+b:
+    -----------------------
+      primes of the form ax+b, where a and b are fixed integers with a>1 and x varies over the natural numbers N.
+      eg: 2x+2 =2(x+1) is only prime if x =0, and is not prime for any x ∈ N
+
+      Proposition: Ther are infinitely many primes of the form 4x - 1
+        proof by contradiction:
+              suppose p1, p2, ....pn are distinct primes of the form 4x - 1. Consider the number
+                          N = 4x - 1 
+             as we no, x ∈ N and we can express x as product of primes
+                          N = 4*p1*p2...pn - 1
+             Then pi ∤ N, for any i. Moreover, not every prime p | N is of the form 4x+1. 
+             If they all were, then N would be of the form 4x+1. Since N is odd (4x-1) , each prime 
+             divisor pi (obvious not even) is odd so there is a p | N that is of the form 4x-1. since p ≠ pi for any i,
+             we have found a new prime of the form 4x-1. we can repeat this process indefinitely, so the set of primes of 
+             the form 4x-1 cannot be finite. ∎  
+
+
+        Note that this proof does not work if 4x-1 is replaced by 4x+1, since a product of primes of the form 4x-1 can be
+        of the form 4x+1
