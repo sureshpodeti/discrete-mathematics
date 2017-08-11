@@ -1,0 +1,19 @@
+                                n
+  Theorem: ∀ a, b ∈ R : r ≠ 1 → Σ  ar^j = ar^(n+1) - a / (r-1)
+                                i=0
+
+   Proof by induction: 
+       Base case: n = 0, r will be equal to 0
+               a = a holds 
+       Induction step: 
+             Assume, formula holds for n = n-1, i.e f(n-1) = ar^(n) -a/ (r-1)
+             To prove, for n = n , f(n) = ar^n -a /(r-1)
+                 f(n) = f(n-1) + ar^n
+                      =  ar^(n) -a/ (r-1) + ar^n
+                      = [ar^(n) - a + ar^n *(r-1)] / (r-1)
+                      = [ar^n(1+r-1) -a] / (r-1)
+                      = [ar^n * r -a ] / (r-1)
+                      = [ar^(n+1) - a]/ (r-1) 
+                 hence, f(n-1) →  f(n)
+                 f(0) →  f(1) →  f(2) .....→ f(n)
+               Hence, f(n) is valid. ∎

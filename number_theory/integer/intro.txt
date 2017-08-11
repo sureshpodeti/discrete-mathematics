@@ -12,7 +12,7 @@ History:
  The problem of efficiently determining whether an integer is prime has long challenged mathematicians
  
  Chinese mathematicians thought that primes are {x | (x |2^x -2)}. fermat showed this is true.
- There are few composite numbers which satisfy this property as well called psudoprimes
+ There are few composite numbers which satisfy this property as well called psudoprimes. eg: n = 341
 
  Fundamental theorem of arithmetic: ∀x ∈ Z+ , x = p1^a.p2^b.p3^c ..pn^k
               where p1, p2...pn are prime numbers , a,b.. ∈ Z

@@ -1,3 +1,14 @@
+ Theorem: Every natural number can be expressed as product of primes
+    proof by induction: 
+        base case: n = 1 , 1 can be expressed as product of empty primes
+        Induction step: Assume x < n are all can be expressed as product of primes 
+        Inudction hypothesis: we need to prove n can be expressed as product of primes
+                 n = a*b
+                 a<n and b<n , since we have assumed numbers <n can be expressed as product of primes
+             then a, b are expressed as product of product primes.
+             so, n can be expressed as product of primes ∎
+
+
  Theorem: Every natural number can be written as a product of primes uniquely up to order
     proof by induction: [Uniqueness proof]
        Base case: n = 1, then the only factorization is the empty product of primes,

@@ -1,7 +1,7 @@
   List of Important theorems:
   --------------------------
   1. (Fundamental theorem of arithmetic). Every natural number can be written as a product of primes uniquely upto order
-  2. ∀ a, b ∈ Z: gcd(a,b) = gcd(b,a) = gcd(±a, ±b) = gcd(a, b-1) = gcd(a, b+a)
+  2. ∀ a, b ∈ Z: gcd(a,b) = gcd(b,a) = gcd(±a, ±b) = gcd(a, b-a) = gcd(a, b+a)
   3. ∀ a, b,n ∈ Z: gcd(a,b) = gcd(a, b-an)
   4. (Division theorem). suppose that a and b are integers b ≠ 0. Then there exists unique integers q and r such that
      0 ≤ r < |b| and a = bq + r

@@ -1,0 +1,4 @@
+ 
+
+  Defination: we say the function f is defined recursively if the value of f at 1 is specified (base case) and if a rule
+          is provided for determining f(n+1) from f(n)
