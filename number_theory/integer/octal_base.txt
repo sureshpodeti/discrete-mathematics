@@ -1,0 +1,44 @@
+
+ Octal base numbers:
+   Computers use two as a base for internal representation of integer, and 
+   either eight or sixteen for display purposes.
+
+  
+    applications:
+    -------------
+   1. Representation of file and other permissions in unix-like systems (chmod).
+   2. Representation of UTF-8 numbers 
+   3. TAR files store some information in octal represenatation.
+
+   UNIX-LIKE system permissions:
+        chmod command is used to change the permissions of user, group, other to read, write and execute
+        $ chmod u+r file_name
+         u - user permission 
+         + - give permission
+         r - to read
+         command will give the user the permission to read
+   
+     those permissions are represented as octal numbers as shown below
+     
+     
+    user permissions
+      read - 256   - (0400)8
+      write - 128  - (0200)8
+     execute - 64  -(0100)8
+
+
+    group 
+     read - 32 - (0040)8
+     write - 16 -(0020)8
+     execute - 8-(0010)8 
+
+
+   other
+    read - 4 -(0004)8
+    write - 2 -(0002)8
+    execute - 1-(0001)8
+
+    Thus, $chmod  0400 file_name
+         gives the user to read premission
+          $ chmod 0700 file_name
+               gives the user to read, write, and execute permissions      
