@@ -1,0 +1,17 @@
+  Binary addition:
+    similar to the decimal addition, only difference is when ever a sum is greater than 1,
+    1 is taken forward.
+
+    eg:
+           1 
+         1 1
+      --------
+         100
+       -------
+
+    eg: 
+            1010
+              11
+            -----
+             1101
+            -----
