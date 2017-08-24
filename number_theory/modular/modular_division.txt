@@ -1,0 +1,10 @@
+Consider 4 ≡ 8 (mod 4). Note we cannot simply divide both sides of the equation by 2, since not 2 ≡ 4 (mod 4).
+This shows that, in general division is not well defined. 
+ 
+If we add the condition that k, N are coprime, then division becomes well defined
+
+
+ property of division in modular arithmetic:
+   gcd(k,N) = 1 ∧  ka ≡  kb (mod N) →  a ≡  b (mod N)
+
+   proof: k(a - b) is a multiple of N and gcd(k, N) = 1. then N must divide a - b, or equivalently a ≡  b (mod N)  

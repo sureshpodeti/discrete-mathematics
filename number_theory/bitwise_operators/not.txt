@@ -1,0 +1,12 @@
+NOT or Compliment: (~x)
+     - unary operation that performs logical negation on each bit, forming one's compliment of the given binary value.
+       Bits that are 0 become 1, and those that are 1 become 0
+
+   example: NOT 00 00 00 10 (decimal 2) = 11 11 11 01
+            11 11 11 01 will be the negative value (starts with 1). 
+            ~2 = -3
+           3 = 00 00 00 11
+           -3 = ~3 + binary 1 = 11 11 11 00 + 1
+                              = 11 11 11 01
+           Hence, ~2 (negation 2 or compliment 2) = -3 
+           always, ~x = -(x+1)        

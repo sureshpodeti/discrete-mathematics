@@ -1,0 +1,13 @@
+
+   left shift operator: x << y
+      returns x with the bits shifted to the left by y places( and new bits on the right hand side are zeros). 
+      This is same as multiplying x by 2**y
+   
+   example: 
+      2 << 1 = 00 00 00 10 << 1
+           4 = 00 00 01 00
+
+      2 << 2 = 00 00 00 10 << 2
+           8 = 00 00 10 00
+       x << y = x * (2**y)
+       

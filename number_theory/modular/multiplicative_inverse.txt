@@ -1,0 +1,6 @@
+ 
+     ax ≡  1 (mod m)
+
+   defination:
+      If a and N are integers such that gcd(a, N) = 1, then there exists an integer x such that 
+      ax ≡  1 (mod N). x is called the multiplicative inverse of a modulo N 

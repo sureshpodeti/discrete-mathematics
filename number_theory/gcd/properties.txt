@@ -1,0 +1,29 @@
+gcd(a,b) is also represented as (a,b)
+1. (a, b) = (|a|,|b|)
+
+
+2. Let a,b, and c be integers with (a,b) = d, then
+          a. (a/d, b/d) = 1
+          b. (a+cb, b) = (a,b)
+
+
+    proof by direct proof: 
+     We need to prove there are no divisors for a/d and b/d other than 1. 
+     Assumption: Let e =(a/d, b/d)  be the integer which divides a/d and b/d other than 1
+           e | a/d  ∧   e | b/d
+           a/d = m1*e   ∧   b/d = m2*e
+           a = de*m1   ∧   b = de*m2
+           de is the maximum integer which divides a and b, but as we know d = (a,b),
+           which means e = 1 , and (a/d , b/d) = 1  ∎  
+
+
+   alternate proof:
+      d | a  ∧  d | b     
+      a = dk1 ∧  b = dk2
+      a/d = k1  ∧  b/d = k2   ----- eq.1
+      Let assume e = (a/d, b/d) = (k1, k2) 
+      k1 = em1 ∧  k2 = em2    -----eq.2
+      from eq.1 and eq.2, a/d = e * m1 ∧ b/d = e * m2 
+      a = de*m1 ∧ b = de*m2, which means de = (a,b) but we have given d = (a,b)
+      hence, e = 1, and (a/d, b/d) = 1 ∎
+

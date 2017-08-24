@@ -1,0 +1,2 @@
+The integers a and b are called relatively prime if a and b have greatest common divisior (a,b) = 1
+ (25, 42) = 1

@@ -1,0 +1,13 @@
+
+   right shift operator: x >> y
+      returns x with the bits shifted to the right by y places( and new bits on the left hand side are zeros). 
+      This is same as dividing x by 2**y
+   
+   example: 
+      4 >> 1 = 00 00 01 00 >> 1
+           2 = 00 00 00 10
+
+      4 >> 2 = 00 00 01 00 >> 2
+           8 = 00 00 00 01
+       x >> y = x / (2**y)
+       

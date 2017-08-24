@@ -1,0 +1,80 @@
+There are three stages on history of binary notations:
+   1. Sign and magnitude
+   2. 1's complement
+   3. 2's complement
+
+
+Sign and Magnitude:
+ left most digit used to store the sign of the number. 
+  0xxxxxx -> leftmost 0 represent the +ve number
+  1xxxxxx -> lefmost 1 represent the -ve number
+ 
+  If a binary digit is represented in 'n' bits, hence we have only 'n-1' bits available for storing number
+  and the 1 bit for storing the sign of the number  
+
+  problems:
+   1. only n-1 bits are available bits for storing number
+   2. arthimetic operations are not valid 
+    example: for 4 bits, we have exclusively 1 bit for storing sign and 
+    only 3 bits are available to store the magnitude of number
+     
+     hence, 2^3 - 1 = 7 is the highest number which can be stored, and
+     total of 8 numbers are stored,(0,1,2,3,4,5,6,7)
+     
+     positive 7 is represented as: 0111
+     negative 7 is represented as: 1111
+     zero represented as: 0000
+     -zero              : 1000
+     we have two representations for 0, which is very bad 
+    
+
+1's complement:
+   **Here the leftmost bit acts as both sign and storing number
+   To find 1's complement, flip all bits from 1 to 0, and 0 to 1
+   positive 7 is represented by 0111
+   1's complement of 7 is :   1000
+   
+   0 is represented as: 0000
+   -0 is represented as: 1111
+    (here we have two representations of 0)
+  
+   suppose we want to add (+7) + (-3)
+     0111
+     1100   (1's complement of +3)
+    -----
+    10011 
+
+   **** but the extra bit cannot be accomodated beacuse its 4 bit capacity
+    we will bring that extra bit to right and add it once again
+     0011
+       +1
+     ----
+    0100   --> represents 4 thats correct ( 7-3 = 4)
+
+   but the problem here is bringing the overflow digit,  2's complement solves this problem
+
+
+2's complement:
+ **Here the leftmost bit acts as both sign and storing number as in the case of 1's complement 
+   To find 1's complement, flip all bits from 1 to 0, and 0 to 1
+   To find 2's complement: first find the 1's complement than add 1 to it
+   2's complement = 1's complement + 1
+ 
+   3 is represented as : 0011
+   1's complement of 3:  1100
+   2's complement of 3:   + 1
+                         ----
+                         1101  -> this represent -3
+    
+  we add 7 + (-3)
+     0111
+     1101
+   ------
+    10100
+    -----
+
+   *** now we discard the left most digit,
+      0100 --> 4 ( is the correct answer 7-3 = 4)
+
+
+

@@ -1,0 +1,9 @@
+ AND: (x & y)
+  if both bits in the compared position are 1, the bit in the resulting binary representation is 
+  1 (1X1); otherwise the result is 0 (1x0 =0 and 0x0 = 0)
+  eg:   
+         0101 (decimal 5)
+    AND  0011 (decimal 3)
+      -------
+         0001 (decimal 1)
+      -------
